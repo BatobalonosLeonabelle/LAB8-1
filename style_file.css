@@ -1,6 +1,13 @@
+#top {
+	background: linear-gradient(#fbceb1,#ff2965);
+	margin: -8px;
+	overflow: hidden;
+}
 h1 {
+	text-shadow: 2px 2px;
+	color: white;
 	font-family: 'Amatica SC';
-	font-size: 22px;
+	font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;  
 }
