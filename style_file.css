@@ -1,13 +1,14 @@
 #top {
 	font-family: 'Amatica SC';
 	color: white;
+	text-shadow: 2px 2px black;
 	background: linear-gradient(#fbceb1,#ff2965);
 	margin: -8px;
 	overflow: hidden;
 	text-align: center;
+	border-bottom: solid 1px gray;
 }
 h1 {
-	text-shadow: 2px 2px;
 	font-size: 40px;
 	text-transform: uppercase;
 }
