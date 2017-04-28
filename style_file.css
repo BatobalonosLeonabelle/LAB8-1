@@ -1,25 +1,52 @@
-#top {
-	font-family: 'Amatica SC';
-	color: white;
-	text-shadow: 2px 2px black;
-	background: linear-gradient(#fbceb1,#ff2965);
-	margin: -8px;
-	overflow: hidden;
-	text-align: center;
-	border-bottom: solid 1px gray;
-}
-h1 {
-	font-size: 40px;
-	text-transform: uppercase;
-	margin-top: 3px;
-	margin-bottom: 3px;
-}
 #border {
-	border: solid 1px gray;
-	margin: 0px;
+	background-color: #ffe6e6;
+	margin: -8px;
 }
 .border {
 	border: solid 1px gray;
-	margin: 10px;
+	margin: 0px 10px;
+	width: 1256px;
+	height: 576px;
 }
-	
+.members {
+	border: solid 1px gray;
+	width: 400px;
+	height: 320px;
+	display: block;
+	margin: 10px 432px;
+}
+h2 {
+	font-size: 0.8em;
+	text-shadow; 2px 2px white;
+	text-align: center;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 360px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+ h3 {
+	font size: 20px;
+	text-shadow: 3px 2px #fbceb1;
+}
+.tooltiptext > p {
+	font-size: 0.8em;
+	text-shadow: 2px 1px #ff2965;
+}
+
